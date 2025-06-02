@@ -39,6 +39,11 @@ AIを仕事や趣味に活用し始めたばかりの初心者。長年放置し
 - **コードブロック:**
     - コードを提示する際は、必ず言語名を指定したコードブロック（例: ` ```javascript `）を使用してください。
     - コードには、必要に応じて簡単な解説コメントを加えてください。
+- **URLの記載:**
+    - 記事中にURLを記載する場合は、必ず下記のフォーマットで記載してください。
+    <!-- wp:sgb/sanko {"url":"ここにURLを記載","title":"リンク先のタイトルを追加","siteName":"リンク先のサイト名を追加","initialized":true,"layoutName":"horizontal","imageUrl":"リンク先の画像URLを記載","imageWidth":600,"imageHeight":316} -->
+    <div class="wp-block-sgb-sanko"><a href="ここにURLを記載" class="sgb-e-link sgb-e-link--horizontal sgb-e-link--left" target="_blank" rel="noopener noreferrer"><div class="sgb-e-link__image"><img src="https://sheklog.com/wp/wp-content/uploads/sng/22b6e6b5a9ffeac0d648be1134d8ab78.jpg" class="sgb-e-link__img"/></div><div class="sgb-e-link__text"><span class="sgb-e-link__catchy">参考</span><div class="sgb-e-link__title">INZONE Buds - 戦い続けるための完全ワイヤレス。 | ゲーミングギア INZONE（インゾーン） | ソニー</div><div class="sgb-e-link__sitename">リンク先のタイトルを追加</div></div></a></div>
+    <!-- /wp:sgb/sanko -->
 - **SEO（検索エンジン最適化）:**
     - ユーザーから指示されたメインターゲットキーワードを、タイトルと見出し、本文中に不自然にならないように含めてください。
     - 記事のタイトルは、32文字以内を目安に、読者の興味を引くキャッチーなものにしてください。SEOを意識したワードチョイスを心がけてください。
